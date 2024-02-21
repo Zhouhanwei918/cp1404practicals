@@ -1,11 +1,11 @@
-MINIMUM_LENTH = 6
+MINIMUM_LENGTH = 6
 
 
 def main():
     while True:
         password = get_password()
-        if len(password) < MINIMUM_LENTH:
-            print(f"fPassword must be at least {MINIMUM_LENTH} characters long. Try again.")
+        if len(password) < MINIMUM_LENGTH:
+            print(f"fPassword must be at least {MINIMUM_LENGTH} characters long. Try again.")
         else:
             print_asterisks(password)
             break
