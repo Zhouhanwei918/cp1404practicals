@@ -21,6 +21,7 @@
 #
 #
 # main()
+import random
 
 
 def main():
@@ -31,6 +32,30 @@ def main():
 
 def determine_status(score):
     """Determine the result of a given score."""
+    if score < 0 or score > 100:
+        return "Invalid score"
+    elif score >= 90:
+        return "Excellent"
+    elif score >= 50:
+        return "Passable"
+    else:
+        return "Bad"
+
+
+main()
+
+
+
+"""added radom score"""
+import random
+def main():
+    """Get a  radom score and display its result."""
+    score = random.randint(0,100)
+    print("Your result is", determine_status(score))
+
+
+def determine_status(score):
+    """Determine the result of a radom score."""
     if score < 0 or score > 100:
         return "Invalid score"
     elif score >= 90:
