@@ -1,4 +1,3 @@
-#
 # def main():
 #     score = float(input("Enter score: "))
 #     result = convert_score_to_result(score)
@@ -21,7 +20,6 @@
 #
 #
 # main()
-import random
 
 
 def main():
@@ -44,13 +42,13 @@ def determine_status(score):
 
 main()
 
-
-
 """added radom score"""
 import random
+
+
 def main():
     """Get a  radom score and display its result."""
-    score = random.randint(0,100)
+    score = random.randint(0, 100)
     print("Your result is", determine_status(score))
 
 
