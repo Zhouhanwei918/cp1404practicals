@@ -11,21 +11,20 @@ def main():
     while choice != "Q":
         if choice == "G":
             score = get_valid_score()
-            print(MENU)
-            choice = input(">>>").upper()
+
         elif choice == "P":
             print("Your result is", determine_status(score))
-            print(MENU)
-            choice = input(">>>").upper()
+
         elif choice == "S":
             print_asterisks(score)
-            print(MENU)
-            choice = input(">>>").upper()
+        print(MENU)
+        choice = input(">>>").upper()
 
     print("farewell")
 
 
 def get_valid_score():
+    """Get valid score"""
     while True:
         score = int(input("Enter a valid score (0-100):"))
         if 0 <= score <= 100:
