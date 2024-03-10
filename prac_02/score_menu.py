@@ -1,3 +1,7 @@
+EXCELLENTTHTHRESHOLD = 90
+PASSABLETHRESHOLD = 50
+HIGHTTHRESHOLD = 100
+LOWTHRESHOLD = 0
 MENU = ('(G)et a valid score\n'
         '(P)rint result \n'
         '(S)how stars \n'
