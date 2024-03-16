@@ -41,5 +41,4 @@ def display_results(champion_to_count, countries):
     print(f"\nThese {len(countries)} countries have won Wimbledon:")
     print(", ".join(sorted(countries)))
 
-
 main()
