@@ -1,7 +1,7 @@
 FILENAME = "wimbledon.csv"
 
 
-def main():
+def main():  
     """Read file wimbledon.csv and print the champions number with their country"""
     records = get_records(FILENAME)
     champions_to_count, countries = withdraw_records(records)
