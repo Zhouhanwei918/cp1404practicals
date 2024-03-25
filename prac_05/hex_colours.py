@@ -9,6 +9,7 @@ COLOUR_TO_CODE = {"Absolute Zero": "#0048ba",
                  "Apricot": "#fbceb1",
                  "Aqua": "#00ffff"}
 
+
 print(COLOUR_TO_CODE)
 
 while True:
