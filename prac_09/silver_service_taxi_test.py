@@ -7,5 +7,4 @@ def main():
     print(silverservicetaxi)
     print(silverservicetaxi.get_fare())
 
-
 main()

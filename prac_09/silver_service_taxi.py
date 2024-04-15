@@ -1,6 +1,5 @@
 from prac_09.taxi import Taxi
 
-
 class SliverServiceTaxi(Taxi):
     flagfall = 4.50
 
