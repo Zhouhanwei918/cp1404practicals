@@ -4,7 +4,6 @@ from kivy.core.window import Window
 
 __author__ = 'zhouhanwei'
 
-
 class SquareNumberApp(App):
     """ SquareNumberApp is a Kivy App for squaring a number """
     def build(self):

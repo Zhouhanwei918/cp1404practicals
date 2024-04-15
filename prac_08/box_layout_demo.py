@@ -18,5 +18,4 @@ class BoxLayoutDemo(App):
         self.root.ids.output_label.text = ''
 
 
-
 BoxLayoutDemo().run()
